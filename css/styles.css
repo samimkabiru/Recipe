@@ -102,3 +102,25 @@ p {
   font-weight: 400;
   color: hsl(30, 10%, 34%);
 }
+
+/* Nutrition */
+.nutrition__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-bottom: 0.1rem solid hsl(30, 18%, 87%);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.nutrition__content p {
+  margin-left: 2.5rem;
+}
+
+.nutrition__content p:nth-of-type(2) {
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+}
+
+.nutrition__text {
+  margin-bottom: 2rem;
+}
