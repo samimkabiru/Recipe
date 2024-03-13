@@ -56,7 +56,7 @@ p {
   border-radius: 1.5rem;
 }
 
-.overview .overview__item > span {
+.overview__item > span {
   font-weight: 600;
 }
 
@@ -66,4 +66,39 @@ p {
 
 .overview__item:nth-of-type(2) {
   margin: 1rem 0;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+/* Instructions */
+.instruction {
+  border-top: 0.2rem solid hsl(30, 18%, 87%);
+  border-bottom: 0.2rem solid hsl(30, 18%, 87%);
+  padding: 3rem 0;
+}
+
+.instruction__list {
+  font-weight: 600;
+  list-style-type: decimal;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 0;
+}
+
+.instruction__heading {
+  margin-top: 0;
+}
+
+.instruction__item {
+  margin-bottom: 1rem;
+}
+
+.instruction__item:nth-of-type(6) {
+  margin-bottom: 0;
+}
+
+.instruction__item > p {
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
 }
