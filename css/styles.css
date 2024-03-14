@@ -14,6 +14,7 @@ body {
   font-family: "Outfit", Arial, Helvetica, sans-serif;
   color: hsl(30, 10%, 34%);
   line-height: 1.5;
+  background: hsl(30, 54%, 90%);
 }
 
 h1,
@@ -26,7 +27,6 @@ h2 {
 
 h1 {
   color: hsl(24, 5%, 18%);
-  margin-top: 0;
 }
 
 h2 {
@@ -78,11 +78,11 @@ p {
   border-top: 0.2rem solid hsl(30, 18%, 87%);
   border-bottom: 0.2rem solid hsl(30, 18%, 87%);
   padding: 3rem 0;
+  margin-bottom: 3rem;
 }
 
 .instruction__list {
   font-weight: 600;
-  list-style-type: decimal;
   color: hsl(14, 45%, 36%);
   margin-bottom: 0;
 }
@@ -131,10 +131,28 @@ p {
   padding: 3rem 2.5rem;
 }
 
+/* Intro Block */
+
 .block-intro__header {
   margin-bottom: 3rem;
 }
 
 .block-intro__ingredients li {
   margin-bottom: 1rem;
+}
+
+.block-intro__ingredients {
+  margin-bottom: 3rem;
+}
+
+/* Recipe */
+.recipe {
+  border-radius: 1.5rem;
+  background: #fff;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+.recipe__image {
+  width: 100%;
+  border-radius: 1.5rem;
 }
