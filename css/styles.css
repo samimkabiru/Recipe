@@ -146,6 +146,11 @@ p {
 }
 
 /* Recipe */
+.block-recipe {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
 .recipe {
   border-radius: 1.5rem;
   background: #fff;
