@@ -26,6 +26,7 @@ h2 {
 
 h1 {
   color: hsl(24, 5%, 18%);
+  margin-top: 0;
 }
 
 h2 {
@@ -123,4 +124,17 @@ p {
 
 .nutrition__text {
   margin-bottom: 2rem;
+}
+
+/* Block */
+.block {
+  padding: 3rem 2.5rem;
+}
+
+.block-intro__header {
+  margin-bottom: 3rem;
+}
+
+.block-intro__ingredients li {
+  margin-bottom: 1rem;
 }
